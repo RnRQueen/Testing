@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class количествочетных {
      public static void main(String[] args) {
 
        int number = 176242257;

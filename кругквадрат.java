@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class кругквадрат {
     public static void main(String[] args) {
       double Sc = 10;
       double Ss = 20;

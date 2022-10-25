@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class Main {
+public class For {
     public static void main(String[] args) {
      System.out.println("task 1"); 
      

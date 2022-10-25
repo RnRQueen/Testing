@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class количествопоследнихцифр {
      public static void main(String[] args) {
 
        int number = 1762457;

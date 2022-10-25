@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class фибоначчи {
     public static void main(String[] args) {
 
     int n = 15;

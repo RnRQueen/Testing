@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class вклад {
     public static void main(String[] args) {
       
       double deposit = 1000;
