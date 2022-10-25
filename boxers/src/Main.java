@@ -11,18 +11,21 @@ public class Main {
         // Определить, в какой категории будет выступать данный боксер.
 
         int x = 59;
-        if(x<60){
-            System.out.println("боксер легкого веса");}
+        if (x < 60) {
+            System.out.println("боксер легкого веса");
+        }
 
-        if((x>=60)&&(x<75))
-        {
-            System.out.println("боксер среднего веса");}
+        if ((x >= 60) && (x < 75)) {
+            System.out.println("боксер среднего веса");
+        }
 
-        if((x>=75)&&(x<91)){
-            System.out.println("боксер тяжёлого веса");}
+        if ((x >= 75) && (x < 91)) {
+            System.out.println("боксер тяжёлого веса");
+        }
 
-        if(x>=91)
-        {System.out.println("боксер супертяжёлого веса");}
+        if (x >= 91) {
+            System.out.println("боксер супертяжёлого веса");
+        }
 
     }
 }
