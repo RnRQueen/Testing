@@ -1,3 +1,6 @@
+/*Дан массив. Составить программу расчета
+ квадратного корня из любого элемента массива*/
+
 import java.util.Random;
 
 public class Main {
@@ -36,15 +39,17 @@ public class Main {
             }
 
             double temp = Math.sqrt(num);
-            System.out.printf("Корень из %.2f = %.2f", num, temp);
+            System.out.printf("Корень из %.2f = %.2f\n", num, temp);
             return temp;
         }
     }
 
     public static void main(String[] args) {
         double[] rgnArray = generateArray(5);
-        printArray(rgnArray);
+        printArray(rgnArray);           //random array
         sqrtOfElement(rgnArray, 4);
+        printArray(array);              //static array
+        sqrtOfElement(array, 9);
 
 
     }
