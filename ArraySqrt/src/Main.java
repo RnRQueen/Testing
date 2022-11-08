@@ -33,7 +33,7 @@ public class Main {
         double num1 = numsArr[n];
         double num2 = numsArr[m];
         double average = (num1 + num2) / 2;
-        System.out.printf("Среднее арифетическое элементов %f и %f массива =  %f\n", num1, num2, average);
+        System.out.printf("Среднее арифетическое элементов %.2f и %.2f массива =  %.2f\n", num1, num2, average);
         return average;
     }
 
