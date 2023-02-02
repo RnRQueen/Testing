@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Run tests with Maven
-      run: mvn -B test --file ./ApiTest/pom.xml --fail-never
+      run: mvn -B test --file ./ApiTest/pom.xml
     - name: Publish Test Report
       if: ${{ always() }}
       uses: scacap/action-surefire-report@v1

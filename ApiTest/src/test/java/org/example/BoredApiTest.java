@@ -18,9 +18,4 @@ public class BoredApiTest {
         assertEquals("recreational", result);
         assertEquals(200, response.getStatus());
     }
-
-    @Test
-    public void failedTest(){
-        assertTrue(false);
-    }
 }
