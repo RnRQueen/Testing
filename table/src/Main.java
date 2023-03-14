@@ -2,7 +2,7 @@ public class Main {
 
     public static void print(int number) {
         if (number > 9 || number < 0)
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Input number from 0 to 9");
         int rows = number;
         int columns = number * 2;
         int mid = columns / 2;
